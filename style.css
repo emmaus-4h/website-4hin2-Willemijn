@@ -1,11 +1,17 @@
 /* 
- * Basislayout 
+ * Handige fixes om problemen te voorkomen
  */
 
-/* zorg dat border meetelt bij de width en height van boxen */
 * {  
+  /* zorg dat border meetelt bij de width en height van boxen */
   box-sizing: border-box;
+  /* zorgt dat DIV de hoogte krijgt van wat erin zit (anders is het soms 0) */
+  overflow:auto;
 }
+
+/* 
+ * Basislayout 
+ */
 
 html, body {
     height: 100%;
@@ -81,10 +87,9 @@ footer {
   float:right;
 }
 
-.clear {
-  clear: both;
+.container {
+  border:solid 2px green; 
 }
-
 
 /* specifieke stijlen */
 
