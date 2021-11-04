@@ -49,6 +49,33 @@ footer {
   text-align:center;
 }
 
+.grote-tekst {
+  border:solid 2px red;
+  width:640
+  margin:auto;
+  text-align:left;
+}
+
+.kleine-tekst {
+  border:solid 2px red;
+  width:20%;
+  margin:left;
+  text-align:left;
+  float:left;
+}
+
+.middel-tekst {
+  border:solid 2px red;
+  width:70%;
+  margin:left;
+  text-align:left;
+  float:right;
+}
+
+.container {
+  clear:both;
+}
+
 /* specifieke stijlen */
 
 img.zweefLinks {
