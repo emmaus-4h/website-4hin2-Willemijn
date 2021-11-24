@@ -69,6 +69,7 @@ footer {
   width:640
   margin:auto;
   text-align:left;
+  padding: 2px;
 }
 
 .kleine-tekst {
@@ -77,6 +78,7 @@ footer {
   margin:left;
   text-align:left;
   float:left;
+  padding: 2px;
 }
 
 .middel-tekst {
@@ -85,6 +87,7 @@ footer {
   margin:left;
   text-align:left;
   float:right;
+  padding: 2px;
 }
 
 .container {
