@@ -94,6 +94,10 @@ footer {
   border:solid 2px green; 
 }
 
+img{
+  width:100%;
+}
+
 /* specifieke stijlen */
 
 img.zweefLinks {
