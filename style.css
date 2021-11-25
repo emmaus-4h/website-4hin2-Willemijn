@@ -62,6 +62,7 @@ footer {
   width:640px;
   margin:auto;
   text-align:center;
+  padding: 2px;
 }
 
 .grote-tekst {
@@ -92,6 +93,11 @@ footer {
 
 .container {
   border:solid 2px green; 
+}
+
+.plaatje4oprij {
+  float:left;
+  width:25%;
 }
 
 img{
