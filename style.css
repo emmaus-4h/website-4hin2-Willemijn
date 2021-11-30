@@ -59,7 +59,7 @@ footer {
 
 .plaat-rij {
   border:solid 2px red;
-  width:640px;
+  width:100%;
   margin:auto;
   text-align:center;
   padding: 2px;
@@ -67,7 +67,7 @@ footer {
 
 .grote-tekst {
   border:solid 2px red;
-  width:640
+  width:100%;
   margin:auto;
   text-align:left;
   padding: 2px;
