@@ -1,4 +1,4 @@
-0/* 
+/* 
  * Handige fixes om problemen te voorkomen
  */
 
@@ -9,6 +9,9 @@
   overflow:auto;
 }
 
+div {
+  border:2px solid green;
+}
 /* 
  * Basislayout 
  */
@@ -62,8 +65,7 @@ footer {
   width:100%;
   margin:auto;
   text-align:center;
-  f
-  padding: 2px;
+  padding:2px;
 }
 
 .grote-tekst {
@@ -71,6 +73,7 @@ footer {
   width:100%;
   margin:auto;
   text-align:left;
+  float:left;
   padding: 2px;
 }
 
