@@ -9,9 +9,6 @@
   overflow:auto;
 }
 
-div {
-  border:2px solid green;
-}
 /* 
  * Basislayout 
  */
@@ -54,22 +51,32 @@ footer {
  */
 
 .titel-plaat {
-  border:solid 2px red;
   width:300px;
   margin:auto;
   text-align:center;
 }
 
+#mercurius{
+margin-top:30px;
+}
+
+#saturnus{
+margin-top:30px;
+}
+
+#neptunes{
+margin-top:30px;
+}
+
 .plaat-rij {
-  border:solid 2px red;
   width:100%;
   margin:auto;
   text-align:center;
   padding:2px;
+  background:black;
 }
 
 .grote-tekst {
-  border:solid 2px red;
   width:100%;
   margin:auto;
   text-align:left;
