@@ -16,10 +16,17 @@
 html, body {
     height: 100%;
     padding: 0;
-    background-color: rgb(0, 0, 0);
-    
+    background-image: url(afbeeldingen/sterrennacht.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: rgb(255,255,255);
     font: Roboto Condensed;
+
+}
+
+body {
+    font-family: Alegreya Sans SC;
 }
 
 main {
@@ -63,7 +70,7 @@ margin-top:30px;
 margin-top:30px;
 }
 
-#neptunes{
+#neptunus{
 margin-top:30px;
 }
 
@@ -72,12 +79,14 @@ margin-top:30px;
   margin-bottom:10px;
 }
 
+#neptunus-ander{
+  margin-top:30px;
+}
+
 .plaat-rij {
   width:100%;
   margin:auto;
   text-align:center;
-  padding:2px;
-  background:black;
 }
 
 .grote-tekst {
@@ -89,7 +98,7 @@ margin-top:30px;
 }
 
 .kleine-tekst {
-  width:40%;
+  width:38%;
   margin:left;
   text-align:left;
   float:left;
